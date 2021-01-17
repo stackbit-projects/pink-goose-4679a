@@ -1,0 +1,48 @@
+title: Planty
+baseURL: /
+params:
+  snipcart_api_key: ''
+  footer_text: Copyright 2020 Planty Inc. All rights reserved.
+  logo_light: images/logo-white.svg
+  logo_dark: images/logo.svg
+  favicon: images/favicon.png
+  hamburger_background_image: /images/leaf-light-grey.svg
+  bg_image_primary: /images/header.jpg
+  bg_image_secondary: /images/leaf-light-grey.svg
+  bg_image_product: /images/leaf.svg
+  palette: default
+  palettes:
+    default:
+      type: palette
+      template: palette
+      sass:
+        default: '#FFFFFF'
+        light: '#F0F0F0'
+        medium: '#6B797A'
+        dark: '#384647'
+        active: '#88DD9B'
+        active_light: '#C0FDB6'
+        active_medium: '#5C9174'
+        active_dark: '#547567'
+        dark_grey: '#273132'
+        light_grey: '#6B797A'
+        bg_image_cart: /images/leaf-light-grey.svg
+  main_menu:
+    - type: action
+      template: action
+      title: Store
+      url: /store
+    - type: action
+      template: action
+      title: About
+      url: /about
+    - type: action
+      template: action
+      title: FAQ
+      url: /faq
+taxonomies:
+  stub: stub
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm

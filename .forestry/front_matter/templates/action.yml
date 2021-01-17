@@ -1,0 +1,26 @@
+---
+label: Action
+hide_body: true
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: text
+  name: url
+  label: URL
+  config:
+    required: true
+- type: boolean
+  name: arrow
+  label: CTA Arrow
+- type: text
+  name: type
+  label: Object Type
+  description: The type of the object
+  hidden: true
+  default: action
+  config:
+    required: true
